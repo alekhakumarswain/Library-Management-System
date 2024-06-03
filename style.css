@@ -1,0 +1,36 @@
+body{
+    background-color: beige;
+
+}
+#menu{
+    display: none;
+    margin-left: 30%;
+}
+nav{
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    ul{
+        padding-left: 30%;
+    }
+
+    li{
+        list-style-type: none;
+        display: inline-block;
+        white-space: inherit;
+    }
+    b{
+        margin-left: 10%;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+@media only screen and (max-width:670px) {
+    ul{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+}
